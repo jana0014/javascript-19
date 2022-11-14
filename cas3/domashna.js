@@ -42,13 +42,15 @@ for(let i = 0; i<niza2.length; i++){
 
 const niza3 = [1, 2, [3, 4], 5, 6]
 const niza4 = []
+const tempNiza = []
 
 for(let i = 0; i < niza3.length; i++){
-    if(niza3[i].length) {
+    if(Array.isArray(niza3[i])) {
         niza3[i].forEach(el => {
-            niza4.push(el)
+            tempNiza.push(el)
         })
     } else {
         niza4.push(niza3[i])
     }
-} console.log(niza4);
+}
+console.log(niza4.concat(tempNiza))
