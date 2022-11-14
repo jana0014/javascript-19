@@ -1,5 +1,5 @@
 const number1 = 15
-const number2 = 0
+const number2 = 7
 const operation = '%'
 
 
