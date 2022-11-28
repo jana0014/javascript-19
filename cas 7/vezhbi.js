@@ -62,11 +62,11 @@ function generatePosts(posts) {
 
     document.body.appendChild(div)
         
-    });
+    })
 }
 
 function removeLoader() {
-    document.body.removeChild(document.getElementById('loading'))
+    document.body.removeChild(document.getElementById("loading"))
 }
 
 
